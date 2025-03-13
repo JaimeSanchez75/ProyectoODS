@@ -1,0 +1,230 @@
+
+header img
+{
+    width:99% ;
+    height: 100;
+}
+header {
+    width:90%;   
+    text-align: center;
+    font-size: 24px;
+}
+img
+{
+    height: 174px;
+    width: 200px;
+}
+nav
+{
+    height:34px;
+    background:rgb(78, 78, 78);
+}
+/* Centramos los primeros dos divs */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dropdownmenu ul 
+{
+    box-sizing: border-box;
+    width: 100%;   
+}
+.dropdownmenu ul, .dropdownmenu li
+{
+    margin:0px;
+    padding:0px;
+}
+.dropdownmenu ul
+{
+    background: rgb(0, 0, 0);
+    list-style: none;
+    width:100%;
+}
+.dropdownmenu li
+{
+    float:left;
+    position:relative;
+    width:auto;
+    
+}
+.dropdownmenu a
+{
+    background: rgb(78, 78, 78);
+    color: white;
+    display:block;
+    font:bold 1.52vh sans-serif;
+    padding: 4px 69px;
+    text-align:center;
+    text-decoration: none;
+}
+.dropdownmenu li:hover a
+{
+    background: lightgray;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    place-items: center;
+    height: 100vh;
+    background-image:url("../img/Retos/background.jpg");
+    background-size: auto;
+    background-repeat:repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.texto 
+{
+justify-content: left;
+    
+   
+}
+
+.box {
+    width: 160vh;
+    height: 150px;
+    margin: 20px;
+    background-color: #9bb69d;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+.mundo{ 
+    height: 50px;
+    width:400px;
+}
+.tooltip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.box:hover .tooltip {
+    display: flex;
+}
+/* Manteniendo la barra de navegación original */
+.dropdownmenu ul {
+    box-sizing: border-box;
+    width: 100%;
+}
+.dropdownmenu ul, .dropdownmenu li {
+    margin: 0;
+    padding: 0;
+}
+.dropdownmenu ul {
+    background: rgb(0, 0, 0);
+    list-style: none;
+    width: 100%;
+}
+.dropdownmenu li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+.dropdownmenu a {
+    background: rgb(78, 78, 78);
+    color: white;
+    display: block;
+    font: bold 1.52vh sans-serif;
+    padding: 4px 69px;
+    text-align: center;
+    text-decoration: none;
+}
+.dropdownmenu li:hover a {
+    background: lightgray;
+}
+
+/* Imagen alargada */
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor flexible */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+/* Estilo para los divs individuales */
+.flex-item, .flex-item-wide {
+    background-color: #9bb69d;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%; /* Para dos columnas */
+    transition: 0.3s ease;
+}
+
+.flex-item:hover, .flex-item-wide:hover {
+    transform: scale(1.1);
+}
+
+.flex-item img, .flex-item-wide img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.flex-item p, .flex-item-wide p {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Último div más ancho */
+.flex-item-wide {
+    width: 75%;
+    background-color: #7a947f;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.video-container video {
+    width: 80%;
+    size: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
